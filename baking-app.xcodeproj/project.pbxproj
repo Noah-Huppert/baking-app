@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C14AC9B51C402CA6005E977B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14AC9B41C402CA6005E977B /* AppDelegate.swift */; };
-		C14AC9B71C402CA6005E977B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14AC9B61C402CA6005E977B /* ViewController.swift */; };
 		C14AC9BA1C402CA6005E977B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14AC9B81C402CA6005E977B /* Main.storyboard */; };
 		C14AC9BD1C402CA6005E977B /* baking_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C14AC9BB1C402CA6005E977B /* baking_app.xcdatamodeld */; };
 		C14AC9BF1C402CA6005E977B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14AC9BE1C402CA6005E977B /* Assets.xcassets */; };
 		C14AC9C21C402CA6005E977B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14AC9C01C402CA6005E977B /* LaunchScreen.storyboard */; };
+		C17E760C1C497ACE007F8481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17E760B1C497ACE007F8481 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C14AC9B11C402CA6005E977B /* baking-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "baking-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14AC9B41C402CA6005E977B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C14AC9B61C402CA6005E977B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C14AC9B91C402CA6005E977B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C14AC9BC1C402CA6005E977B /* baking_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = baking_app.xcdatamodel; sourceTree = "<group>"; };
 		C14AC9BE1C402CA6005E977B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C14AC9C11C402CA6005E977B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C14AC9C31C402CA6005E977B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17E760B1C497ACE007F8481 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				C14AC9B41C402CA6005E977B /* AppDelegate.swift */,
-				C14AC9B61C402CA6005E977B /* ViewController.swift */,
 				C14AC9B81C402CA6005E977B /* Main.storyboard */,
 				C14AC9BE1C402CA6005E977B /* Assets.xcassets */,
 				C14AC9C01C402CA6005E977B /* LaunchScreen.storyboard */,
 				C14AC9C31C402CA6005E977B /* Info.plist */,
 				C14AC9BB1C402CA6005E977B /* baking_app.xcdatamodeld */,
+				C17E760B1C497ACE007F8481 /* ViewController.swift */,
 			);
 			path = "baking-app";
 			sourceTree = "<group>";
@@ -138,8 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17E760C1C497ACE007F8481 /* ViewController.swift in Sources */,
 				C14AC9BD1C402CA6005E977B /* baking_app.xcdatamodeld in Sources */,
-				C14AC9B71C402CA6005E977B /* ViewController.swift in Sources */,
 				C14AC9B51C402CA6005E977B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +290,7 @@
 				C14AC9C81C402CA6005E977B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
