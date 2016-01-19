@@ -18,8 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="NGx-lP-VuN">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="NGx-lP-VuN">
+                                <rect key="frame" x="146" y="0.0" width="308" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rPY-Jm-TmL">
                                     <size key="itemSize" width="150" height="150"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -27,8 +28,8 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="QJg-zb-IiN">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="QJg-zb-IiN" customClass="RecipeCell" customModule="baking_app" customModuleProvider="target">
+                                        <rect key="frame" x="79" y="0.0" width="150" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
@@ -40,7 +41,6 @@
                                                         <constraint firstAttribute="width" constant="134" id="jXg-YT-3Dj"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -51,6 +51,9 @@
                                             <constraint firstItem="gIA-ia-YN4" firstAttribute="leading" secondItem="QJg-zb-IiN" secondAttribute="leadingMargin" id="RCQ-Q3-MY6"/>
                                             <constraint firstItem="gIA-ia-YN4" firstAttribute="trailing" secondItem="QJg-zb-IiN" secondAttribute="trailingMargin" id="wOt-lv-9HM"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="label" destination="gIA-ia-YN4" id="6Kf-Uf-rz0"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
@@ -60,6 +63,12 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NGx-lP-VuN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="diC-65-pIu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NGx-lP-VuN" secondAttribute="trailing" constant="126" id="tFE-wj-UmA"/>
+                            <constraint firstItem="NGx-lP-VuN" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="vIM-6q-Jke"/>
+                            <constraint firstItem="NGx-lP-VuN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="126" id="wHx-9E-GiL"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

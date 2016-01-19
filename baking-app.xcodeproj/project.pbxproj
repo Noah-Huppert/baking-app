@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C10EFE4A1C4EB006002ED38C /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10EFE491C4EB006002ED38C /* RecipeCell.swift */; };
 		C14AC9B51C402CA6005E977B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14AC9B41C402CA6005E977B /* AppDelegate.swift */; };
 		C14AC9BA1C402CA6005E977B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14AC9B81C402CA6005E977B /* Main.storyboard */; };
 		C14AC9BD1C402CA6005E977B /* baking_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C14AC9BB1C402CA6005E977B /* baking_app.xcdatamodeld */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C10EFE491C4EB006002ED38C /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		C14AC9B11C402CA6005E977B /* baking-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "baking-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14AC9B41C402CA6005E977B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C14AC9B91C402CA6005E977B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				C14AC9C31C402CA6005E977B /* Info.plist */,
 				C14AC9BB1C402CA6005E977B /* baking_app.xcdatamodeld */,
 				C17E760B1C497ACE007F8481 /* ViewController.swift */,
+				C10EFE491C4EB006002ED38C /* RecipeCell.swift */,
 			);
 			path = "baking-app";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				C17E760C1C497ACE007F8481 /* ViewController.swift in Sources */,
 				C14AC9BD1C402CA6005E977B /* baking_app.xcdatamodeld in Sources */,
 				C14AC9B51C402CA6005E977B /* AppDelegate.swift in Sources */,
+				C10EFE4A1C4EB006002ED38C /* RecipeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
