@@ -10,4 +10,12 @@ import UIKit
 
 class RecipeCell: UICollectionViewCell {
     @IBOutlet weak var label: UILabel!
+    
+    var recipe: Recipe?
+    
+    func updateUI() {
+        if let r = recipe {
+            label.text = r.name
+        }
+    }
 }
