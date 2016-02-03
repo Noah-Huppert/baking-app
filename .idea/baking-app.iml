@@ -6,6 +6,10 @@
       <sourceFolder url="file://$MODULE_DIR$/baking-appTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/baking-app/baking_app.xcdatamodeld/baking_app.xcdatamodel" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/baking-app/AppDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/baking-app/models/Recipe.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/baking-app/models/RecipeStepIngredient.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/baking-app/models/Ingredient.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/baking-app/models/RecipeStep.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/baking-app/ViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/baking-app/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/baking-app/Assets.xcassets" isTestSource="false" />

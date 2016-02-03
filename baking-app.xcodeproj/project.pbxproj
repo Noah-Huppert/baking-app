@@ -15,9 +15,13 @@
 		AD60C67EDC471FAF4D7FC301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60C626B642180CCB0E9D68 /* AppDelegate.swift */; };
 		AD60CA9679B8C337FF536BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD60C7753A296FE329FA1014 /* Assets.xcassets */; };
 		AD60CAED35160B1D2DB9CA7F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD60C974942B9301A2C2F5C6 /* Info.plist */; };
+		AD60CB059DBEF396563867AF /* RecipeStepIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60CDE9520375F3CD4D4BEF /* RecipeStepIngredient.swift */; };
 		AD60CB3D0D10E7AA83723A16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60C5CCAD4C05F9C3272DCC /* ViewController.swift */; };
+		AD60CBA3135E40C8FAEBD5FB /* RecipeStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60C0B50D033E10E4A1BE96 /* RecipeStep.swift */; };
 		AD60CBC9359FC2D3723F8D72 /* baking_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60CFC0D8A5D4BE202E722D /* baking_appUITests.swift */; };
 		AD60CBCBF8711E51E339A6D7 /* baking_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60C1630FA6F139AA910973 /* baking_appTests.swift */; };
+		AD60CD2DC34D65E34CFE1715 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60C94A6E80C92CD69676F0 /* Ingredient.swift */; };
+		AD60CEAE45D8C9B2260D2E0A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60CD5E62AEC9CFBC79B881 /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD60C0B50D033E10E4A1BE96 /* RecipeStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeStep.swift; sourceTree = "<group>"; };
 		AD60C1630FA6F139AA910973 /* baking_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baking_appTests.swift; sourceTree = "<group>"; };
 		AD60C2E88CBED2EF7AF877D6 /* baking-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "baking-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD60C49518E97CD3DD0DB83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,8 +51,11 @@
 		AD60C626B642180CCB0E9D68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD60C7753A296FE329FA1014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD60C82119689B467D3345CB /* baking-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "baking-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD60C94A6E80C92CD69676F0 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		AD60C974942B9301A2C2F5C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		AD60CB46DD08754F2F7CB5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		AD60CD5E62AEC9CFBC79B881 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		AD60CDE9520375F3CD4D4BEF /* RecipeStepIngredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeStepIngredient.swift; sourceTree = "<group>"; };
 		AD60CEB3C1DA94D5BFCA30F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		AD60CF7A84745F8F66081468 /* baking-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "baking-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD60CFC0D8A5D4BE202E722D /* baking_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baking_appUITests.swift; sourceTree = "<group>"; };
@@ -107,6 +115,17 @@
 			path = "baking-appUITests";
 			sourceTree = "<group>";
 		};
+		AD60CB124F7CBDBA1A079018 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				AD60CD5E62AEC9CFBC79B881 /* Recipe.swift */,
+				AD60C94A6E80C92CD69676F0 /* Ingredient.swift */,
+				AD60C0B50D033E10E4A1BE96 /* RecipeStep.swift */,
+				AD60CDE9520375F3CD4D4BEF /* RecipeStepIngredient.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		AD60CB6CFEC405A6A7839AFF = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +146,7 @@
 				AD60CCA42F36B5595D836072 /* baking_app.xcdatamodeld */,
 				AD60C43AF734F5748A7894A1 /* Main.storyboard */,
 				AD60C5CCAD4C05F9C3272DCC /* ViewController.swift */,
+				AD60CB124F7CBDBA1A079018 /* models */,
 			);
 			path = "baking-app";
 			sourceTree = "<group>";
@@ -252,6 +272,10 @@
 				AD60C67EDC471FAF4D7FC301 /* AppDelegate.swift in Sources */,
 				AD60C264033853CC80CEFB38 /* baking_app.xcdatamodeld in Sources */,
 				AD60CB3D0D10E7AA83723A16 /* ViewController.swift in Sources */,
+				AD60CEAE45D8C9B2260D2E0A /* Recipe.swift in Sources */,
+				AD60CD2DC34D65E34CFE1715 /* Ingredient.swift in Sources */,
+				AD60CBA3135E40C8FAEBD5FB /* RecipeStep.swift in Sources */,
+				AD60CB059DBEF396563867AF /* RecipeStepIngredient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
