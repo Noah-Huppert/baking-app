@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD60C264033853CC80CEFB38 /* baking_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD60CCA42F36B5595D836072 /* baking_app.xcdatamodeld */; };
+		AD60C3BD7E50FA7E31DD8BC1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD60CEB3C1DA94D5BFCA30F4 /* Info.plist */; };
+		AD60C4C2DDDA23A21030D5B6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD60CB46DD08754F2F7CB5B1 /* Info.plist */; };
+		AD60C54D664853B31D0481C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD60C3843ADFC104E180A636 /* LaunchScreen.storyboard */; };
+		AD60C5A11883DF7902C3F268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD60C43AF734F5748A7894A1 /* Main.storyboard */; };
+		AD60C67EDC471FAF4D7FC301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60C626B642180CCB0E9D68 /* AppDelegate.swift */; };
+		AD60CA9679B8C337FF536BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD60C7753A296FE329FA1014 /* Assets.xcassets */; };
+		AD60CAED35160B1D2DB9CA7F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD60C974942B9301A2C2F5C6 /* Info.plist */; };
+		AD60CB3D0D10E7AA83723A16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60C5CCAD4C05F9C3272DCC /* ViewController.swift */; };
+		AD60CBC9359FC2D3723F8D72 /* baking_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60CFC0D8A5D4BE202E722D /* baking_appUITests.swift */; };
+		AD60CBCBF8711E51E339A6D7 /* baking_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60C1630FA6F139AA910973 /* baking_appTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD60CBBA35B986F1F3DF7BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD60C1915ECA94526999FAF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD60C7665895C932DB916382;
+			remoteInfo = "baking-app";
+		};
+		AD60CDFF7B51DE2725A85EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD60C1915ECA94526999FAF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD60C7665895C932DB916382;
+			remoteInfo = "baking-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD60C1630FA6F139AA910973 /* baking_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baking_appTests.swift; sourceTree = "<group>"; };
+		AD60C2E88CBED2EF7AF877D6 /* baking-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "baking-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD60C49518E97CD3DD0DB83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD60C4C3C0D930655CF76BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD60C5CCAD4C05F9C3272DCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD60C626B642180CCB0E9D68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD60C7753A296FE329FA1014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD60C82119689B467D3345CB /* baking-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "baking-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD60C974942B9301A2C2F5C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		AD60CB46DD08754F2F7CB5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		AD60CEB3C1DA94D5BFCA30F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		AD60CF7A84745F8F66081468 /* baking-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "baking-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD60CFC0D8A5D4BE202E722D /* baking_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baking_appUITests.swift; sourceTree = "<group>"; };
+		AD60CFD05832D22EFE7DC805 /* baking_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = baking_app.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD60C00B9E5995A5A61C40FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD60C29DC7C275EE7E095A05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD60CD5AAA6F302AB0A060C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD60C19109FC34E0EA218386 /* baking-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD60CB46DD08754F2F7CB5B1 /* Info.plist */,
+				AD60C1630FA6F139AA910973 /* baking_appTests.swift */,
+			);
+			path = "baking-appTests";
+			sourceTree = "<group>";
+		};
+		AD60C5DA622A7FA2FB1BDE40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD60CF7A84745F8F66081468 /* baking-app.app */,
+				AD60C2E88CBED2EF7AF877D6 /* baking-appTests.xctest */,
+				AD60C82119689B467D3345CB /* baking-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD60C73C0C4FCB021483B2CD /* baking-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD60CEB3C1DA94D5BFCA30F4 /* Info.plist */,
+				AD60CFC0D8A5D4BE202E722D /* baking_appUITests.swift */,
+			);
+			path = "baking-appUITests";
+			sourceTree = "<group>";
+		};
+		AD60CB6CFEC405A6A7839AFF = {
+			isa = PBXGroup;
+			children = (
+				AD60C5DA622A7FA2FB1BDE40 /* Products */,
+				AD60CCCACC316D2417410A4B /* baking-app */,
+				AD60C19109FC34E0EA218386 /* baking-appTests */,
+				AD60C73C0C4FCB021483B2CD /* baking-appUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		AD60CCCACC316D2417410A4B /* baking-app */ = {
+			isa = PBXGroup;
+			children = (
+				AD60C974942B9301A2C2F5C6 /* Info.plist */,
+				AD60C7753A296FE329FA1014 /* Assets.xcassets */,
+				AD60C3843ADFC104E180A636 /* LaunchScreen.storyboard */,
+				AD60C626B642180CCB0E9D68 /* AppDelegate.swift */,
+				AD60CCA42F36B5595D836072 /* baking_app.xcdatamodeld */,
+				AD60C43AF734F5748A7894A1 /* Main.storyboard */,
+				AD60C5CCAD4C05F9C3272DCC /* ViewController.swift */,
+			);
+			path = "baking-app";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD60C7665895C932DB916382 /* baking-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD60CA3EC1FA271FAC1534B4 /* Build configuration list for PBXNativeTarget "baking-app" */;
+			buildPhases = (
+				AD60C0BC76B42E31E9265ECF /* Sources */,
+				AD60C29DC7C275EE7E095A05 /* Frameworks */,
+				AD60CB07F3A49248B2CEEA1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "baking-app";
+			productName = "baking-app";
+			productReference = AD60CF7A84745F8F66081468 /* baking-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD60C92FF818A9575A37A431 /* baking-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD60C0CC1F98365F47F31B3D /* Build configuration list for PBXNativeTarget "baking-appTests" */;
+			buildPhases = (
+				AD60C4B7971C9677FDBFC8A0 /* Sources */,
+				AD60CD5AAA6F302AB0A060C7 /* Frameworks */,
+				AD60CE0EA226965CAC310C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD60C4A704C28CE0481582E9 /* PBXTargetDependency */,
+			);
+			name = "baking-appTests";
+			productName = "baking-appTests";
+			productReference = AD60C2E88CBED2EF7AF877D6 /* baking-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD60CED81A46894E8457A829 /* baking-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD60CD0CBE168D77A1EAFA1F /* Build configuration list for PBXNativeTarget "baking-appUITests" */;
+			buildPhases = (
+				AD60C292180F1726C7F145AB /* Sources */,
+				AD60C00B9E5995A5A61C40FF /* Frameworks */,
+				AD60C12A35D828FDB4215B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD60C3319FAA92ED5DEDB543 /* PBXTargetDependency */,
+			);
+			name = "baking-appUITests";
+			productName = "baking-appUITests";
+			productReference = AD60C82119689B467D3345CB /* baking-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD60C1915ECA94526999FAF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = noahhuppert.com;
+			};
+			buildConfigurationList = AD60C5439CE183CC945123C3 /* Build configuration list for PBXProject "baking-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD60CB6CFEC405A6A7839AFF;
+			productRefGroup = AD60C5DA622A7FA2FB1BDE40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD60C7665895C932DB916382 /* baking-app */,
+				AD60C92FF818A9575A37A431 /* baking-appTests */,
+				AD60CED81A46894E8457A829 /* baking-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD60C12A35D828FDB4215B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD60C3BD7E50FA7E31DD8BC1 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD60CB07F3A49248B2CEEA1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD60CAED35160B1D2DB9CA7F /* Info.plist in Resources */,
+				AD60CA9679B8C337FF536BCA /* Assets.xcassets in Resources */,
+				AD60C54D664853B31D0481C8 /* LaunchScreen.storyboard in Resources */,
+				AD60C5A11883DF7902C3F268 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD60CE0EA226965CAC310C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD60C4C2DDDA23A21030D5B6 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD60C0BC76B42E31E9265ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD60C67EDC471FAF4D7FC301 /* AppDelegate.swift in Sources */,
+				AD60C264033853CC80CEFB38 /* baking_app.xcdatamodeld in Sources */,
+				AD60CB3D0D10E7AA83723A16 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD60C292180F1726C7F145AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD60CBC9359FC2D3723F8D72 /* baking_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD60C4B7971C9677FDBFC8A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD60CBCBF8711E51E339A6D7 /* baking_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD60C3319FAA92ED5DEDB543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD60C7665895C932DB916382 /* baking-app */;
+			targetProxy = AD60CDFF7B51DE2725A85EEA /* PBXContainerItemProxy */;
+		};
+		AD60C4A704C28CE0481582E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD60C7665895C932DB916382 /* baking-app */;
+			targetProxy = AD60CBBA35B986F1F3DF7BF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD60C3843ADFC104E180A636 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD60C49518E97CD3DD0DB83E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AD60C43AF734F5748A7894A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD60C4C3C0D930655CF76BC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD60C1510B5B8FEF08DA9064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "baking-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noahhuppert.baking-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD60C688BCFFD1A17A7B1931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/baking-app.app/baking-app";
+				INFOPLIST_FILE = "baking-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noahhuppert.baking-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		AD60C73A16E452B0282E2708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD60C839D1A30DFD2F8A82EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/baking-app.app/baking-app";
+				INFOPLIST_FILE = "baking-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noahhuppert.baking-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		AD60CB96F675E113EDB84650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/baking-app.app/baking-app";
+				INFOPLIST_FILE = "baking-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noahhuppert.baking-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		AD60CC7999E5DFF88013DB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "baking-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noahhuppert.baking-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD60CE9817675C59BC77B247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/baking-app.app/baking-app";
+				INFOPLIST_FILE = "baking-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noahhuppert.baking-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		AD60CEB0707D21293B0DA0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD60C0CC1F98365F47F31B3D /* Build configuration list for PBXNativeTarget "baking-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD60C688BCFFD1A17A7B1931 /* Debug */,
+				AD60CE9817675C59BC77B247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD60C5439CE183CC945123C3 /* Build configuration list for PBXProject "baking-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD60CEB0707D21293B0DA0F1 /* Debug */,
+				AD60C73A16E452B0282E2708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD60CA3EC1FA271FAC1534B4 /* Build configuration list for PBXNativeTarget "baking-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD60CC7999E5DFF88013DB16 /* Debug */,
+				AD60C1510B5B8FEF08DA9064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD60CD0CBE168D77A1EAFA1F /* Build configuration list for PBXNativeTarget "baking-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD60C839D1A30DFD2F8A82EE /* Debug */,
+				AD60CB96F675E113EDB84650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD60CCA42F36B5595D836072 /* baking_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD60CFD05832D22EFE7DC805 /* baking_app.xcdatamodel */,
+			);
+			currentVersion = AD60CFD05832D22EFE7DC805 /* baking_app.xcdatamodel */;
+			path = baking_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AD60C1915ECA94526999FAF0 /* Project object */;
+}
