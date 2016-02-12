@@ -8,4 +8,9 @@ import Foundation
 class RecipeStep {
     var text: String
     var ingredients: [RecipeStepIngredient]
+
+    init(text: String, ingredients: [RecipeStepIngredient]) {
+        self.text = text
+        self.ingredients = ingredients
+    }
 }

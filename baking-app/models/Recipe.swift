@@ -10,4 +10,11 @@ class Recipe {
     var name: String
     var thumbnailUri: String
     var steps: [RecipeStep]
+
+    init(id: Int, name: String, thumbnailUri: String, steps: [RecipeStep]) {
+        self.id = id
+        self.name = name
+        self.thumbnailUri = thumbnailUri
+        self.steps = steps
+    }
 }
